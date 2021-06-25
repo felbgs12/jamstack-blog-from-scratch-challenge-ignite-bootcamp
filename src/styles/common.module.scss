@@ -2,3 +2,41 @@
   max-width: 1120px;
   margin: 5rem auto 4rem;
 }
+
+.posts {
+  margin-bottom: 3rem;
+
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    line-height: 2rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    color: var(--gray--300);
+  }
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+
+  margin-top: 1.5rem;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    color: var(--gray-600);
+  }
+
+  div {
+    margin-right: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-left: 0.6rem;
+  }
+}
