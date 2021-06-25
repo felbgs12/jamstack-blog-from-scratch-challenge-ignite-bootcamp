@@ -31,14 +31,12 @@
     margin-right: 0.75rem;
   }
 
-  time {
+  span {
     display: flex;
     align-items: center;
   }
 
-  span {
-    display: flex;
-    align-items: center;
+  span + span {
     padding-left: 1.5rem;
   }
 }
@@ -46,6 +44,8 @@
 .morePosts {
   display: block;
   margin-top: 4rem;
+  border: 0;
+  background: transparent;
 
   font-size: 1.125rem;
   font-weight: 600;
